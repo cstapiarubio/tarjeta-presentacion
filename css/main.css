@@ -3,16 +3,36 @@
 	padding:0;
 }
 
-#principal{
-background-image: url('https://ncmedia.azureedge.net/ncmedia/2016/04/Copy-of-Students1.jpg');
-width:100%;
-height: 100%;
+body{
+	background-image: url('../img/Copy-of-Students1.jpg');
+	color: whitesmoke;
+	margin-top: -21px;
+	background-repeat: no-repeat;                          
+	height: 680px;       
+	width: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:30% 15%;
 }
 
 #logo{
-	width: 180px;
+	width: 280px;
+	margin-bottom: 50px;
+	margin-left: 580px;
 }
 
 #code{
 	width: 80px;
+	margin-top: 552px;
+	margin-left: 1267px;
+}
+
+#info{
+	background-color: #525246;
+	width: 490px;
+	height: 883px;
+	margin-left: 858px;
+
 }
