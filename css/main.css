@@ -29,17 +29,17 @@ body{
 	margin-left: 1267px;
 }
 
-#info{
+/*#info{
 	background-color: #525246;
 	width: 490px;
 	height: 883px;
 	margin-left: 858px;
-
-}
+}*/
 
 #triangle{
-	width: 0;
-	height: 0;
-	border-bottom: 100px solid #525246;
-	border-left: 100px solid transparent;
+	position: relative;
+	margin-top: -160px;
+	margin-left: 450px;
+	border-bottom: 1000px solid #525246;
+	border-left: 800px solid transparent;
 }
