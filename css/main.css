@@ -4,6 +4,7 @@
 }
 
 body{
+	z-index:-1;
 	background-image: url('../img/Copy-of-Students1.jpg');
 	color: whitesmoke;
 	margin-top: -21px;
@@ -29,17 +30,27 @@ body{
 	margin-left: 1267px;
 }
 
-/*#info{
-	background-color: #525246;
-	width: 490px;
-	height: 883px;
-	margin-left: 858px;
-}*/
-
 #triangle{
+	z-index:0 auto;
 	position: relative;
 	margin-top: -160px;
 	margin-left: 450px;
 	border-bottom: 1000px solid #525246;
 	border-left: 800px solid transparent;
+}
+
+#pres, 
+#info{
+	z-index: 10;
+	margin-top: -690px;
+	margin-left: 900px;
+	padding: 10px;
+}
+#pres h1,
+#info p{
+	color: #ffffff;
+}
+
+#pres p{
+	color: yellow;
 }
