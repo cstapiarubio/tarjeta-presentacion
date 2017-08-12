@@ -21,16 +21,17 @@ body{
 
 #logo{
 	width: 280px;
-	margin-bottom: 200px;
-	margin-left: -100px;
+	margin-top: -365px;
+    float:left;
 	position: relative;
 	z-index: 1;
 }
 
 #code{
+	float: right;
+	position: relative;
 	width: 80px;
-	margin-top: 552px;
-	margin-left: 1267px;
+	margin-top: 202px;
 }
 
 #triangle{
