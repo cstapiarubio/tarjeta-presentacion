@@ -16,12 +16,15 @@ body{
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:30% 15%;
+	position: relative;
 }
 
 #logo{
 	width: 280px;
-	margin-bottom: 50px;
-	margin-left: 580px;
+	margin-bottom: 200px;
+	margin-left: -100px;
+	position: relative;
+	z-index: 1;
 }
 
 #code{
@@ -34,18 +37,27 @@ body{
 	z-index:0 auto;
 	position: relative;
 	margin-top: -160px;
-	margin-left: 450px;
-	border-bottom: 1000px solid #525246;
-	border-left: 800px solid transparent;
+	margin-left: 400px;
+	border-bottom: 960px solid #525246;
+	border-left: 900px solid transparent;
 }
 
-#pres, 
-#info{
+#pres{
+	position: relative;
 	z-index: 10;
-	margin-top: -690px;
+	margin-top: -460px;
 	margin-left: 900px;
 	padding: 10px;
 }
+
+#info{
+	position: relative;
+	z-index: 10;
+    margin-top: -6px;
+	margin-left: 900px;
+	padding: 10px;
+}
+
 #pres h1,
 #info p{
 	color: #ffffff;
